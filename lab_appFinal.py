@@ -5,6 +5,7 @@ import datetime
 import board
 import adafruit_dht
 import sqlite3
+import serial
 
 # Initial the dht device, with data pin connected to:
 dhtDevice = adafruit_dht.DHT22(board.D4, use_pulseio = False)
@@ -12,13 +13,60 @@ dhtDevice = adafruit_dht.DHT22(board.D4, use_pulseio = False)
 app = Flask(__name__)
 app.debug = True # Make this False if you are no longer debugging
 
+ser = serial.Serial('/dev/ttyS0',115200)
+ser.flushInput()
+
+power_key = 6
+rec_buff = ''
+time_count = 0
+
 @app.route("/")
 def hello():
     return "Hello World!"
 
 @app.route("/live_tracking")
-def test():
-    return render_template('live_tracking.html')
+def get_gps_data(command,back,timeout):
+    command = 'AT+CGPSINFO'
+    back = '+CGPSINFO: '
+    timeout = 1
+    rec_buff = ''
+    ser.write((command+'\r\n').encode())
+    time.sleep(timeout)
+    if ser.inWaiting():
+        time.sleep(0.01)
+        rec_buff = ser.read(ser.inWaiting())
+    if rec_buff != '':
+        if back not in rec_buff.decode():
+            print(command + ' Error')
+            print(command + ' back:\t' + rec_buff.decode())
+            return 0
+        else:
+            global GPSDATA
+            
+            GPSDATA = str(rec_buff.decode())
+            start_index = GPSDATA.find(':') + 2
+            Cleaned = GPSDATA[start_index:]
+            #print(rec_buff.decode())
+            Lat = Cleaned[:2]
+            SmallLat = Cleaned[2:11]
+            NorthOrSouth = Cleaned[12]
+            #print(Lat, SmallLat, NorthOrSouth)
+            #print(isinstance(Lat, str))
+            
+            Long = Cleaned[14:17]
+            SmallLong = ''.join(filter(lambda x: x.isdigit() or x == '.', Cleaned[17:26]))
+            EastOrWest = Cleaned[27]
+            #print(Long, SmallLong, EastOrWest)
+            
+            FinalLong = float(Long) + (float(SmallLong)/60)
+            FinalLat = float(Lat) + (float(SmallLat)/60)
+            if EastOrWest == 'W': FinalLong = -FinalLong
+            if NorthOrSouth == 'S': FinalLat = -FinalLat
+	    
+            return 1
+    else:
+        print('GPS is not ready')
+        return 0
 
 @app.route("/lab_temp")
 def lab_temp():
