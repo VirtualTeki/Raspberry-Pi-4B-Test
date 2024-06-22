@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GPS Tracker by RPi</title>
+    <meta http-equiv="refresh" content="10">
+    <meta name="description" content="GPS Tracker - RPi">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="icon" type="image/png" href="/static/images/favicon.png">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="one-third column" style="margin-top: 5%">
+          <strong>Showing all records</strong>                
+          <h2>Real Time GPS Coordinates</h2>                    
+            <table class="u-full-width">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Latitude</th>
+                  <th>Longitude</th>                        
+                </tr>
+              </thead>
+              <tbody>
+                {% for row in gps %}
+                <tr>
+                  <td>{{row[0]}}</td>
+                  <td>{{"{0:0.6f}".format(row[1])}}</td>
+                  <td>{{"{0:0.6f}".format(row[2])}}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>  
+            <p>This page refreshes every 10 seconds</p>
+        </div>
+      </div>
+    </div>           
+  </body>
+</html>
