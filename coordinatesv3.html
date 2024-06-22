@@ -99,8 +99,6 @@
             coordinates.forEach(function(coord) {
                 var latlng = [coord.latitude, coord.longitude];
                 latlngs.push(latlng);
-                L.marker(latlng).addTo(map)
-                  .bindPopup('<b>Datetime:</b> ' + coord.rDatetime + '<br><b>Latitude:</b> ' + coord.latitude + '<br><b>Longitude:</b> ' + coord.longitude);
             });
 
             // Add polyline to connect the coordinates
