@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GPS Tracker by RPi</title>
+    <meta name="description" content="GPS Tracker - RPi">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        .map {
+            height: 563px;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .container {
+            max-width: 960px;
+            margin: auto;
+        }
+        .header, .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .header h1, .footer p {
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination a {
+            margin: 0 5px;
+            text-decoration: none;
+        }
+        .pagination span {
+            margin: 0 5px;
+        }
+    </style>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>GPS Tracker by RPi</h1>
+        <p>Real-Time GPS Coordinates</p>
+      </div>
+      <div class="row">
+        <div class="one-half column">
+          <strong>Showing all records</strong>
+          <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in coordinates %}
+              <tr>
+                <td>{{row['rDatetime']}}</td>
+                <td>{{"{0:0.6f}".format(row['latitude'])}}</td>
+                <td>{{"{0:0.6f}".format(row['longitude'])}}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+          <div class="pagination">
+            {% if page > 1 %}
+              <a href="{{ url_for('get_coordinates', page=page-1) }}">&laquo; Previous</a>
+            {% endif %}
+            <span>Page {{ page }}</span>
+            <a href="{{ url_for('get_coordinates', page=page+1) }}">Next &raquo;</a>
+          </div>
+          <p>This page refreshes every 10 seconds</p>
+        </div>
+        <div class="one-half column">
+          <div id="map" class="map"></div>
+          <script type="text/javascript">
+            var coordinates = {{ coordinates | tojson }};
+            var map = L.map('map').setView([coordinates[coordinates.length - 1].latitude, coordinates[coordinates.length - 1].longitude], 14);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+            }).addTo(map);
+
+            var latlngs = [];
+            coordinates.forEach(function(coord) {
+                var latlng = [coord.latitude, coord.longitude];
+                latlngs.push(latlng);
+                L.marker(latlng).addTo(map)
+                  .bindPopup('<b>Datetime:</b> ' + coord.rDatetime + '<br><b>Latitude:</b> ' + coord.latitude + '<br><b>Longitude:</b> ' + coord.longitude);
+            });
+
+            // Add polyline to connect the coordinates
+            var polyline = L.polyline(latlngs, {color: 'blue'}).addTo(map);
+            map.fitBounds(polyline.getBounds());
+          </script>
+        </div>
+      </div>
+      <div class="footer">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
