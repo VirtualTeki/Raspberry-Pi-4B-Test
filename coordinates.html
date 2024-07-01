@@ -50,13 +50,27 @@
         <div class="one-half column" style="margin-top: 5%">
             <div id="map" class="map"></div>
             <script type="text/javascript">
-                var map = L.map('map').setView([{{coordinates[-1]['latitude']}}, {{coordinates[-1]['longitude']}}], 14);
+                var coordinates = {{ coordinates | tojson }};
+                var latestCoord = coordinates[coordinates.length - 1];
+                var map = L.map('map').setView([latestCoord.latitude, latestCoord.longitude], 14);
 
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     maxZoom: 19,
                 }).addTo(map);
 
-                var marker = L.marker([{{coordinates[-1]['latitude']}}, {{coordinates[-1]['longitude']}}]).addTo(map);
+                var latlngs = [];
+                coordinates.forEach(function(coord) {
+                    var latlng = [coord.latitude, coord.longitude];
+                    latlngs.push(latlng);
+                });
+
+                // Add polyline to connect the coordinates
+                var polyline = L.polyline(latlngs, {color: 'blue'}).addTo(map);
+                map.fitBounds(polyline.getBounds());
+
+                // Add a marker at the latest coordinates
+                var latestMarker = L.marker([latestCoord.latitude, latestCoord.longitude]).addTo(map);
+                latestMarker.bindPopup("<b>Latest Location</b><br>Lat: " + latestCoord.latitude.toFixed(6) + "<br>Lon: " + latestCoord.longitude.toFixed(6)).openPopup();
             </script>
         </div>
       </div>
