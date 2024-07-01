@@ -16,7 +16,7 @@ def get_coordinates():
     return render_template('coordinates.html', coordinates=coordinates)
 
 def fetch_coordinates():
-    from_date_str = request.args.get('from', time.strftime("%Y-%m-%d %H:%M"))
+    from_date_str = request.args.get('from', time.strftime("%Y-%m-%d 00:00"))
     to_date_str = request.args.get('to', time.strftime("%Y-%m-%d %H:%M"))
 
     if not validate_date(from_date_str):
