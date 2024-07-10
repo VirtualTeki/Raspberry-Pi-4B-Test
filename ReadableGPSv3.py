@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import serial
 import time
 
-ser = serial.Serial('/dev/ttyUSB2',115200)
+ser = serial.Serial('/dev/ttyS0',115200)
 ser.flushInput()
 
 def send_at(command,back,timeout):
