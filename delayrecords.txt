@@ -1,0 +1,71 @@
+
+>>> %Run -c $EDITOR_CONTENT
+-7.81369695 110.31996241666667
+Time to send command: 1.000252 seconds
+Time to read response: 0.010379 seconds
+Time to process data: 0.003136 seconds
+Time taken for this cycle: 1.016607 seconds
+-7.81369695 110.3199624
+Time to send command: 1.000159 seconds
+Time to read response: 0.010199 seconds
+Time to process data: 0.001036 seconds
+Time taken for this cycle: 1.012439 seconds
+-7.81369695 110.31996241666667
+Time to send command: 1.000165 seconds
+Time to read response: 0.010213 seconds
+Time to process data: 0.000883 seconds
+Time taken for this cycle: 1.012061 seconds
+-7.81369695 110.31996243333333
+Time to send command: 1.000241 seconds
+Time to read response: 0.010330 seconds
+Time to process data: 0.002246 seconds
+Time taken for this cycle: 1.024678 seconds
+-7.81369695 110.31996243333333
+Time to send command: 1.000160 seconds
+Time to read response: 0.010190 seconds
+Time to process data: 0.000950 seconds
+Time taken for this cycle: 1.012347 seconds
+-7.8136969333333335 110.31996245
+Time to send command: 1.000154 seconds
+Time to read response: 0.010199 seconds
+Time to process data: 0.001184 seconds
+Time taken for this cycle: 1.012578 seconds
+-7.813696916666666 110.31996246666667
+Time to send command: 1.000158 seconds
+Time to read response: 0.010200 seconds
+Time to process data: 0.000962 seconds
+Time taken for this cycle: 1.012368 seconds
+-7.813696883333334 110.31996248333333
+Time to send command: 1.000146 seconds
+Time to read response: 0.010191 seconds
+Time to process data: 0.001068 seconds
+Time taken for this cycle: 1.012436 seconds
+-7.813696866666667 110.3199625
+Time to send command: 1.000149 seconds
+Time to read response: 0.010192 seconds
+Time to process data: 0.000943 seconds
+Time taken for this cycle: 1.012242 seconds
+-7.8136968499999995 110.31996253333334
+Time to send command: 1.000141 seconds
+Time to read response: 0.010185 seconds
+Time to process data: 0.000983 seconds
+Time taken for this cycle: 1.012365 seconds
+-7.8136968499999995 110.31996251666666
+Time to send command: 1.000226 seconds
+Time to read response: 0.010311 seconds
+Time to process data: 0.002295 seconds
+Time taken for this cycle: 1.015551 seconds
+-7.8136968499999995 110.31996251666666
+Time to send command: 1.000223 seconds
+Time to read response: 0.010336 seconds
+Time to process data: 0.002146 seconds
+Time taken for this cycle: 1.018384 seconds
+-7.8136968499999995 110.31996251666666
+Time to send command: 1.000264 seconds
+Time to read response: 0.010336 seconds
+Time to process data: 0.003775 seconds
+Time taken for this cycle: 1.023918 seconds
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Python 3.11.2 (/usr/bin/python3)
+>>> 
