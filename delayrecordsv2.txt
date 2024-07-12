@@ -1,0 +1,919 @@
+>>> %Run gpsdelaytestv2.py
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020196 seconds
+Time to read response: 0.000146 seconds
+Time to process data: 0.001639 seconds
+Time taken for this cycle: 0.024659 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020193 seconds
+Time to read response: 0.000394 seconds
+Time to process data: 0.001434 seconds
+Time taken for this cycle: 0.023263 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020175 seconds
+Time to read response: 0.000210 seconds
+Time to process data: 0.001426 seconds
+Time taken for this cycle: 0.023274 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020162 seconds
+Time to read response: 0.000370 seconds
+Time to process data: 0.001120 seconds
+Time taken for this cycle: 0.022541 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020190 seconds
+Time to read response: 0.000351 seconds
+Time to process data: 0.001493 seconds
+Time taken for this cycle: 0.022967 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020336 seconds
+Time to read response: 0.000165 seconds
+Time to process data: 0.001077 seconds
+Time taken for this cycle: 0.022524 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020170 seconds
+Time to read response: 0.000529 seconds
+Time to process data: 0.002462 seconds
+Time taken for this cycle: 0.026200 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020283 seconds
+Time to read response: 0.000355 seconds
+Time to process data: 0.002438 seconds
+Time taken for this cycle: 0.024802 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020132 seconds
+Time to read response: 0.000153 seconds
+Time to process data: 0.001436 seconds
+Time taken for this cycle: 0.022676 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020168 seconds
+Time to read response: 0.000382 seconds
+Time to process data: 0.002878 seconds
+Time taken for this cycle: 0.024990 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020164 seconds
+Time to read response: 0.000166 seconds
+Time to process data: 0.001266 seconds
+Time taken for this cycle: 0.022401 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020136 seconds
+Time to read response: 0.000134 seconds
+Time to process data: 0.001011 seconds
+Time taken for this cycle: 0.022369 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020162 seconds
+Time to read response: 0.000391 seconds
+Time to process data: 0.003020 seconds
+Time taken for this cycle: 0.025148 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020146 seconds
+Time to read response: 0.000297 seconds
+Time to process data: 0.004308 seconds
+Time taken for this cycle: 0.027524 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020147 seconds
+Time to read response: 0.000200 seconds
+Time to process data: 0.001632 seconds
+Time taken for this cycle: 0.023673 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020307 seconds
+Time to read response: 0.000424 seconds
+Time to process data: 0.003062 seconds
+Time taken for this cycle: 0.025525 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020146 seconds
+Time to read response: 0.000173 seconds
+Time to process data: 0.001539 seconds
+Time taken for this cycle: 0.023136 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020259 seconds
+Time to read response: 0.000405 seconds
+Time to process data: 0.001168 seconds
+Time taken for this cycle: 0.025100 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020269 seconds
+Time to read response: 0.000147 seconds
+Time to process data: 0.001087 seconds
+Time taken for this cycle: 0.022396 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020147 seconds
+Time to read response: 0.000168 seconds
+Time to process data: 0.002854 seconds
+Time taken for this cycle: 0.025063 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020169 seconds
+Time to read response: 0.000343 seconds
+Time to process data: 0.002641 seconds
+Time taken for this cycle: 0.024578 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020162 seconds
+Time to read response: 0.000134 seconds
+Time to process data: 0.000948 seconds
+Time taken for this cycle: 0.022455 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020208 seconds
+Time to read response: 0.000432 seconds
+Time to process data: 0.001807 seconds
+Time taken for this cycle: 0.024287 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020350 seconds
+Time to read response: 0.000903 seconds
+Time to process data: 0.001271 seconds
+Time taken for this cycle: 0.024106 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020300 seconds
+Time to read response: 0.000226 seconds
+Time to process data: 0.002987 seconds
+Time taken for this cycle: 0.025463 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020484 seconds
+Time to read response: 0.000347 seconds
+Time to process data: 0.001436 seconds
+Time taken for this cycle: 0.024362 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020146 seconds
+Time to read response: 0.000171 seconds
+Time to process data: 0.001341 seconds
+Time taken for this cycle: 0.026289 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020336 seconds
+Time to read response: 0.000483 seconds
+Time to process data: 0.002242 seconds
+Time taken for this cycle: 0.024380 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020140 seconds
+Time to read response: 0.000165 seconds
+Time to process data: 0.001341 seconds
+Time taken for this cycle: 0.022630 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020275 seconds
+Time to read response: 0.000442 seconds
+Time to process data: 0.003237 seconds
+Time taken for this cycle: 0.025470 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020360 seconds
+Time to read response: 0.000212 seconds
+Time to process data: 0.001817 seconds
+Time taken for this cycle: 0.024063 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.021021 seconds
+Time to read response: 0.000153 seconds
+Time to process data: 0.001496 seconds
+Time taken for this cycle: 0.025534 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020282 seconds
+Time to read response: 0.000196 seconds
+Time to process data: 0.005098 seconds
+Time taken for this cycle: 0.028772 seconds
+-7.813548066666667 110.31989341666667
+Time to send command: 0.020458 seconds
+Time to read response: 0.000476 seconds
+Time to process data: 0.005921 seconds
+Time taken for this cycle: 0.031400 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020414 seconds
+Time to read response: 0.000294 seconds
+Time to process data: 0.003295 seconds
+Time taken for this cycle: 0.028414 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020346 seconds
+Time to read response: 0.000512 seconds
+Time to process data: 0.002272 seconds
+Time taken for this cycle: 0.024787 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020217 seconds
+Time to read response: 0.000398 seconds
+Time to process data: 0.005338 seconds
+Time taken for this cycle: 0.030284 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020173 seconds
+Time to read response: 0.000153 seconds
+Time to process data: 0.001560 seconds
+Time taken for this cycle: 0.023479 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020280 seconds
+Time to read response: 0.000386 seconds
+Time to process data: 0.004312 seconds
+Time taken for this cycle: 0.029234 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020263 seconds
+Time to read response: 0.000196 seconds
+Time to process data: 0.002016 seconds
+Time taken for this cycle: 0.023890 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020204 seconds
+Time to read response: 0.000393 seconds
+Time to process data: 0.002738 seconds
+Time taken for this cycle: 0.027782 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020269 seconds
+Time to read response: 0.000204 seconds
+Time to process data: 0.001217 seconds
+Time taken for this cycle: 0.022551 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020277 seconds
+Time to read response: 0.000336 seconds
+Time to process data: 0.004237 seconds
+Time taken for this cycle: 0.026691 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020154 seconds
+Time to read response: 0.000255 seconds
+Time to process data: 0.001436 seconds
+Time taken for this cycle: 0.022849 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020131 seconds
+Time to read response: 0.000462 seconds
+Time to process data: 0.003157 seconds
+Time taken for this cycle: 0.028914 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020260 seconds
+Time to read response: 0.000167 seconds
+Time to process data: 0.001843 seconds
+Time taken for this cycle: 0.023318 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020259 seconds
+Time to read response: 0.000369 seconds
+Time to process data: 0.004339 seconds
+Time taken for this cycle: 0.028080 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020151 seconds
+Time to read response: 0.000247 seconds
+Time to process data: 0.002393 seconds
+Time taken for this cycle: 0.024622 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020247 seconds
+Time to read response: 0.000318 seconds
+Time to process data: 0.004940 seconds
+Time taken for this cycle: 0.032153 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020187 seconds
+Time to read response: 0.000152 seconds
+Time to process data: 0.001556 seconds
+Time taken for this cycle: 0.025080 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020485 seconds
+Time to read response: 0.000549 seconds
+Time to process data: 0.001609 seconds
+Time taken for this cycle: 0.024021 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020149 seconds
+Time to read response: 0.000238 seconds
+Time to process data: 0.001475 seconds
+Time taken for this cycle: 0.023340 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020275 seconds
+Time to read response: 0.000329 seconds
+Time to process data: 0.003046 seconds
+Time taken for this cycle: 0.024662 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020147 seconds
+Time to read response: 0.000182 seconds
+Time to process data: 0.001841 seconds
+Time taken for this cycle: 0.023812 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020219 seconds
+Time to read response: 0.000400 seconds
+Time to process data: 0.003783 seconds
+Time taken for this cycle: 0.031414 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020216 seconds
+Time to read response: 0.000170 seconds
+Time to process data: 0.002228 seconds
+Time taken for this cycle: 0.028309 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020301 seconds
+Time to read response: 0.000352 seconds
+Time to process data: 0.002875 seconds
+Time taken for this cycle: 0.025451 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020197 seconds
+Time to read response: 0.000498 seconds
+Time to process data: 0.004019 seconds
+Time taken for this cycle: 0.028688 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020318 seconds
+Time to read response: 0.000279 seconds
+Time to process data: 0.002566 seconds
+Time taken for this cycle: 0.024368 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020129 seconds
+Time to read response: 0.000164 seconds
+Time to process data: 0.001650 seconds
+Time taken for this cycle: 0.025004 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020269 seconds
+Time to read response: 0.000368 seconds
+Time to process data: 0.002073 seconds
+Time taken for this cycle: 0.024123 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020145 seconds
+Time to read response: 0.000149 seconds
+Time to process data: 0.004269 seconds
+Time taken for this cycle: 0.029334 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020274 seconds
+Time to read response: 0.000318 seconds
+Time to process data: 0.003335 seconds
+Time taken for this cycle: 0.026704 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020432 seconds
+Time to read response: 0.000494 seconds
+Time to process data: 0.004615 seconds
+Time taken for this cycle: 0.027371 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020161 seconds
+Time to read response: 0.000140 seconds
+Time to process data: 0.001077 seconds
+Time taken for this cycle: 0.022393 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020221 seconds
+Time to read response: 0.000383 seconds
+Time to process data: 0.001797 seconds
+Time taken for this cycle: 0.025101 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020476 seconds
+Time to read response: 0.000187 seconds
+Time to process data: 0.001117 seconds
+Time taken for this cycle: 0.023039 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020160 seconds
+Time to read response: 0.000171 seconds
+Time to process data: 0.003286 seconds
+Time taken for this cycle: 0.026822 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020247 seconds
+Time to read response: 0.000325 seconds
+Time to process data: 0.002099 seconds
+Time taken for this cycle: 0.023806 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020146 seconds
+Time to read response: 0.000166 seconds
+Time to process data: 0.001531 seconds
+Time taken for this cycle: 0.025025 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020264 seconds
+Time to read response: 0.000481 seconds
+Time to process data: 0.002043 seconds
+Time taken for this cycle: 0.023757 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020154 seconds
+Time to read response: 0.000238 seconds
+Time to process data: 0.002129 seconds
+Time taken for this cycle: 0.024063 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020231 seconds
+Time to read response: 0.000487 seconds
+Time to process data: 0.003811 seconds
+Time taken for this cycle: 0.026693 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020191 seconds
+Time to read response: 0.000454 seconds
+Time to process data: 0.003189 seconds
+Time taken for this cycle: 0.028322 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020272 seconds
+Time to read response: 0.000403 seconds
+Time to process data: 0.003018 seconds
+Time taken for this cycle: 0.025410 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020168 seconds
+Time to read response: 0.000240 seconds
+Time to process data: 0.001500 seconds
+Time taken for this cycle: 0.022718 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020183 seconds
+Time to read response: 0.000367 seconds
+Time to process data: 0.002748 seconds
+Time taken for this cycle: 0.027734 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020206 seconds
+Time to read response: 0.000354 seconds
+Time to process data: 0.003267 seconds
+Time taken for this cycle: 0.028179 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020205 seconds
+Time to read response: 0.000219 seconds
+Time to process data: 0.002393 seconds
+Time taken for this cycle: 0.025135 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020233 seconds
+Time to read response: 0.000448 seconds
+Time to process data: 0.006631 seconds
+Time taken for this cycle: 0.034562 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020219 seconds
+Time to read response: 0.000311 seconds
+Time to process data: 0.004049 seconds
+Time taken for this cycle: 0.028041 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020607 seconds
+Time to read response: 0.000139 seconds
+Time to process data: 0.001017 seconds
+Time taken for this cycle: 0.022695 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020146 seconds
+Time to read response: 0.000180 seconds
+Time to process data: 0.003023 seconds
+Time taken for this cycle: 0.025512 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020235 seconds
+Time to read response: 0.000376 seconds
+Time to process data: 0.002570 seconds
+Time taken for this cycle: 0.024349 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020148 seconds
+Time to read response: 0.000189 seconds
+Time to process data: 0.001680 seconds
+Time taken for this cycle: 0.023554 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020172 seconds
+Time to read response: 0.000452 seconds
+Time to process data: 0.003069 seconds
+Time taken for this cycle: 0.027060 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020172 seconds
+Time to read response: 0.000164 seconds
+Time to process data: 0.001406 seconds
+Time taken for this cycle: 0.023445 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020165 seconds
+Time to read response: 0.000179 seconds
+Time to process data: 0.001521 seconds
+Time taken for this cycle: 0.023784 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020159 seconds
+Time to read response: 0.000186 seconds
+Time to process data: 0.001705 seconds
+Time taken for this cycle: 0.023091 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020128 seconds
+Time to read response: 0.000124 seconds
+Time to process data: 0.000970 seconds
+Time taken for this cycle: 0.022222 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020370 seconds
+Time to read response: 0.000459 seconds
+Time to process data: 0.002233 seconds
+Time taken for this cycle: 0.024593 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020351 seconds
+Time to read response: 0.000167 seconds
+Time to process data: 0.001029 seconds
+Time taken for this cycle: 0.022757 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020144 seconds
+Time to read response: 0.000217 seconds
+Time to process data: 0.001460 seconds
+Time taken for this cycle: 0.022877 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020230 seconds
+Time to read response: 0.000670 seconds
+Time to process data: 0.003145 seconds
+Time taken for this cycle: 0.027443 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020312 seconds
+Time to read response: 0.000460 seconds
+Time to process data: 0.002411 seconds
+Time taken for this cycle: 0.027206 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020183 seconds
+Time to read response: 0.000295 seconds
+Time to process data: 0.001356 seconds
+Time taken for this cycle: 0.023473 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020185 seconds
+Time to read response: 0.000166 seconds
+Time to process data: 0.001477 seconds
+Time taken for this cycle: 0.023019 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020149 seconds
+Time to read response: 0.000184 seconds
+Time to process data: 0.003914 seconds
+Time taken for this cycle: 0.026600 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020484 seconds
+Time to read response: 0.000430 seconds
+Time to process data: 0.001313 seconds
+Time taken for this cycle: 0.023562 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020154 seconds
+Time to read response: 0.000205 seconds
+Time to process data: 0.001004 seconds
+Time taken for this cycle: 0.026151 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020536 seconds
+Time to read response: 0.000304 seconds
+Time to process data: 0.001692 seconds
+Time taken for this cycle: 0.023607 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020156 seconds
+Time to read response: 0.000881 seconds
+Time to process data: 0.002127 seconds
+Time taken for this cycle: 0.024058 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020251 seconds
+Time to read response: 0.000348 seconds
+Time to process data: 0.008038 seconds
+Time taken for this cycle: 0.031573 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020155 seconds
+Time to read response: 0.000182 seconds
+Time to process data: 0.003696 seconds
+Time taken for this cycle: 0.025937 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020221 seconds
+Time to read response: 0.000266 seconds
+Time to process data: 0.001267 seconds
+Time taken for this cycle: 0.022578 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020151 seconds
+Time to read response: 0.000178 seconds
+Time to process data: 0.001422 seconds
+Time taken for this cycle: 0.023211 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020549 seconds
+Time to read response: 0.000416 seconds
+Time to process data: 0.002590 seconds
+Time taken for this cycle: 0.025426 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020247 seconds
+Time to read response: 0.000249 seconds
+Time to process data: 0.001855 seconds
+Time taken for this cycle: 0.023299 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020270 seconds
+Time to read response: 0.000366 seconds
+Time to process data: 0.004209 seconds
+Time taken for this cycle: 0.029199 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020509 seconds
+Time to read response: 0.000134 seconds
+Time to process data: 0.001091 seconds
+Time taken for this cycle: 0.022853 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020183 seconds
+Time to read response: 0.000396 seconds
+Time to process data: 0.002105 seconds
+Time taken for this cycle: 0.025414 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020141 seconds
+Time to read response: 0.000169 seconds
+Time to process data: 0.001206 seconds
+Time taken for this cycle: 0.023370 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020166 seconds
+Time to read response: 0.000293 seconds
+Time to process data: 0.006305 seconds
+Time taken for this cycle: 0.030484 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020149 seconds
+Time to read response: 0.000222 seconds
+Time to process data: 0.000863 seconds
+Time taken for this cycle: 0.022022 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020127 seconds
+Time to read response: 0.000150 seconds
+Time to process data: 0.003938 seconds
+Time taken for this cycle: 0.030524 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020378 seconds
+Time to read response: 0.000222 seconds
+Time to process data: 0.001171 seconds
+Time taken for this cycle: 0.022755 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.021989 seconds
+Time to read response: 0.000374 seconds
+Time to process data: 0.005772 seconds
+Time taken for this cycle: 0.030643 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020216 seconds
+Time to read response: 0.000180 seconds
+Time to process data: 0.001983 seconds
+Time taken for this cycle: 0.023843 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020184 seconds
+Time to read response: 0.000300 seconds
+Time to process data: 0.003373 seconds
+Time taken for this cycle: 0.026236 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020262 seconds
+Time to read response: 0.000478 seconds
+Time to process data: 0.002502 seconds
+Time taken for this cycle: 0.025207 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020174 seconds
+Time to read response: 0.000284 seconds
+Time to process data: 0.003092 seconds
+Time taken for this cycle: 0.026880 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020149 seconds
+Time to read response: 0.000168 seconds
+Time to process data: 0.001113 seconds
+Time taken for this cycle: 0.022405 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020128 seconds
+Time to read response: 0.000150 seconds
+Time to process data: 0.002845 seconds
+Time taken for this cycle: 0.024522 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020278 seconds
+Time to read response: 0.000446 seconds
+Time to process data: 0.004203 seconds
+Time taken for this cycle: 0.026658 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020143 seconds
+Time to read response: 0.000438 seconds
+Time to process data: 0.003627 seconds
+Time taken for this cycle: 0.027262 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020195 seconds
+Time to read response: 0.000247 seconds
+Time to process data: 0.001530 seconds
+Time taken for this cycle: 0.022786 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020145 seconds
+Time to read response: 0.000154 seconds
+Time to process data: 0.002362 seconds
+Time taken for this cycle: 0.027187 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020318 seconds
+Time to read response: 0.000412 seconds
+Time to process data: 0.002310 seconds
+Time taken for this cycle: 0.025890 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020312 seconds
+Time to read response: 0.000170 seconds
+Time to process data: 0.001499 seconds
+Time taken for this cycle: 0.025933 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020547 seconds
+Time to read response: 0.000313 seconds
+Time to process data: 0.003168 seconds
+Time taken for this cycle: 0.027239 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020169 seconds
+Time to read response: 0.000320 seconds
+Time to process data: 0.004454 seconds
+Time taken for this cycle: 0.032938 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020237 seconds
+Time to read response: 0.000375 seconds
+Time to process data: 0.001671 seconds
+Time taken for this cycle: 0.023086 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020131 seconds
+Time to read response: 0.000174 seconds
+Time to process data: 0.001001 seconds
+Time taken for this cycle: 0.022293 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020192 seconds
+Time to read response: 0.000168 seconds
+Time to process data: 0.001300 seconds
+Time taken for this cycle: 0.023381 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020191 seconds
+Time to read response: 0.000439 seconds
+Time to process data: 0.002457 seconds
+Time taken for this cycle: 0.024251 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020236 seconds
+Time to read response: 0.000648 seconds
+Time to process data: 0.003879 seconds
+Time taken for this cycle: 0.027639 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020262 seconds
+Time to read response: 0.000202 seconds
+Time to process data: 0.001263 seconds
+Time taken for this cycle: 0.023351 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020159 seconds
+Time to read response: 0.000210 seconds
+Time to process data: 0.001734 seconds
+Time taken for this cycle: 0.023877 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020144 seconds
+Time to read response: 0.000162 seconds
+Time to process data: 0.001188 seconds
+Time taken for this cycle: 0.023492 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020307 seconds
+Time to read response: 0.000207 seconds
+Time to process data: 0.002596 seconds
+Time taken for this cycle: 0.025620 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020191 seconds
+Time to read response: 0.000444 seconds
+Time to process data: 0.002359 seconds
+Time taken for this cycle: 0.026624 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.021561 seconds
+Time to read response: 0.000338 seconds
+Time to process data: 0.004363 seconds
+Time taken for this cycle: 0.031011 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020265 seconds
+Time to read response: 0.000173 seconds
+Time to process data: 0.001157 seconds
+Time taken for this cycle: 0.022529 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020903 seconds
+Time to read response: 0.000192 seconds
+Time to process data: 0.004754 seconds
+Time taken for this cycle: 0.026835 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020188 seconds
+Time to read response: 0.000301 seconds
+Time to process data: 0.002934 seconds
+Time taken for this cycle: 0.024692 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020238 seconds
+Time to read response: 0.000351 seconds
+Time to process data: 0.001615 seconds
+Time taken for this cycle: 0.023391 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020197 seconds
+Time to read response: 0.000255 seconds
+Time to process data: 0.000939 seconds
+Time taken for this cycle: 0.022205 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020143 seconds
+Time to read response: 0.000139 seconds
+Time to process data: 0.001154 seconds
+Time taken for this cycle: 0.022773 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020303 seconds
+Time to read response: 0.000365 seconds
+Time to process data: 0.003873 seconds
+Time taken for this cycle: 0.027064 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020224 seconds
+Time to read response: 0.000396 seconds
+Time to process data: 0.001957 seconds
+Time taken for this cycle: 0.024727 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020306 seconds
+Time to read response: 0.000146 seconds
+Time to process data: 0.000986 seconds
+Time taken for this cycle: 0.024679 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020252 seconds
+Time to read response: 0.000242 seconds
+Time to process data: 0.001836 seconds
+Time taken for this cycle: 0.023583 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.021413 seconds
+Time to read response: 0.000148 seconds
+Time to process data: 0.001257 seconds
+Time taken for this cycle: 0.024332 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020249 seconds
+Time to read response: 0.000572 seconds
+Time to process data: 0.003242 seconds
+Time taken for this cycle: 0.027700 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020259 seconds
+Time to read response: 0.000188 seconds
+Time to process data: 0.001927 seconds
+Time taken for this cycle: 0.023642 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020195 seconds
+Time to read response: 0.000455 seconds
+Time to process data: 0.007016 seconds
+Time taken for this cycle: 0.030441 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020195 seconds
+Time to read response: 0.000209 seconds
+Time to process data: 0.001270 seconds
+Time taken for this cycle: 0.022659 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020562 seconds
+Time to read response: 0.000388 seconds
+Time to process data: 0.003694 seconds
+Time taken for this cycle: 0.026705 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020260 seconds
+Time to read response: 0.000464 seconds
+Time to process data: 0.002474 seconds
+Time taken for this cycle: 0.025429 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020186 seconds
+Time to read response: 0.000355 seconds
+Time to process data: 0.003824 seconds
+Time taken for this cycle: 0.025532 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020206 seconds
+Time to read response: 0.000131 seconds
+Time to process data: 0.001041 seconds
+Time taken for this cycle: 0.022484 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020142 seconds
+Time to read response: 0.000170 seconds
+Time to process data: 0.001401 seconds
+Time taken for this cycle: 0.023529 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020203 seconds
+Time to read response: 0.000380 seconds
+Time to process data: 0.003282 seconds
+Time taken for this cycle: 0.026361 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020247 seconds
+Time to read response: 0.000365 seconds
+Time to process data: 0.002667 seconds
+Time taken for this cycle: 0.026055 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020179 seconds
+Time to read response: 0.000361 seconds
+Time to process data: 0.003054 seconds
+Time taken for this cycle: 0.025765 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020196 seconds
+Time to read response: 0.000442 seconds
+Time to process data: 0.003149 seconds
+Time taken for this cycle: 0.024827 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020227 seconds
+Time to read response: 0.000187 seconds
+Time to process data: 0.001374 seconds
+Time taken for this cycle: 0.022803 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020138 seconds
+Time to read response: 0.000432 seconds
+Time to process data: 0.002843 seconds
+Time taken for this cycle: 0.026489 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020252 seconds
+Time to read response: 0.000144 seconds
+Time to process data: 0.000939 seconds
+Time taken for this cycle: 0.022540 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020161 seconds
+Time to read response: 0.000158 seconds
+Time to process data: 0.002508 seconds
+Time taken for this cycle: 0.026536 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020234 seconds
+Time to read response: 0.000338 seconds
+Time to process data: 0.003616 seconds
+Time taken for this cycle: 0.028337 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020269 seconds
+Time to read response: 0.000375 seconds
+Time to process data: 0.002237 seconds
+Time taken for this cycle: 0.027350 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020177 seconds
+Time to read response: 0.000445 seconds
+Time to process data: 0.002860 seconds
+Time taken for this cycle: 0.025190 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020165 seconds
+Time to read response: 0.000126 seconds
+Time to process data: 0.001127 seconds
+Time taken for this cycle: 0.022629 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020144 seconds
+Time to read response: 0.000264 seconds
+Time to process data: 0.003386 seconds
+Time taken for this cycle: 0.027179 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020195 seconds
+Time to read response: 0.000376 seconds
+Time to process data: 0.001776 seconds
+Time taken for this cycle: 0.024135 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020147 seconds
+Time to read response: 0.000143 seconds
+Time to process data: 0.001910 seconds
+Time taken for this cycle: 0.025398 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020170 seconds
+Time to read response: 0.000388 seconds
+Time to process data: 0.003836 seconds
+Time taken for this cycle: 0.025919 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020144 seconds
+Time to read response: 0.000143 seconds
+Time to process data: 0.000986 seconds
+Time taken for this cycle: 0.022230 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020212 seconds
+Time to read response: 0.000421 seconds
+Time to process data: 0.002269 seconds
+Time taken for this cycle: 0.026650 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020177 seconds
+Time to read response: 0.000128 seconds
+Time to process data: 0.001354 seconds
+Time taken for this cycle: 0.022949 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020173 seconds
+Time to read response: 0.000366 seconds
+Time to process data: 0.001602 seconds
+Time taken for this cycle: 0.024906 seconds
+-7.813548083333333 110.31989341666667
+Time to send command: 0.020218 seconds
+Time to read response: 0.000179 seconds
+Time to process data: 0.001136 seconds
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Python 3.11.2 (/usr/bin/python3)
+>>> 

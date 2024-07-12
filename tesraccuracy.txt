@@ -1,0 +1,36 @@
+-7.8092246 110.32197801666666
+Time to send command: 1.000425 seconds
+Time to read response: 0.000286 seconds
+Time to process data: 0.002927 seconds
+Time taken for this cycle: 1.006506 seconds
+-7.809224583333333 110.32197801666666
+Time to send command: 1.000153 seconds
+Time to read response: 0.000138 seconds
+Time to process data: 0.001028 seconds
+Time taken for this cycle: 1.002254 seconds
+-7.809224516666667 110.321978
+Time to send command: 1.000139 seconds
+Time to read response: 0.000129 seconds
+Time to process data: 0.000961 seconds
+Time taken for this cycle: 1.002242 seconds
+-7.809224466666667 110.32197801666666
+Time to send command: 1.000260 seconds
+Time to read response: 0.000276 seconds
+Time to process data: 0.002113 seconds
+Time taken for this cycle: 1.005346 seconds
+-7.809224433333333 110.32197808333333
+Time to send command: 1.000190 seconds
+Time to read response: 0.000133 seconds
+Time to process data: 0.000985 seconds
+Time taken for this cycle: 1.002260 seconds
+-7.809224433333333 110.32197811666667
+Time to send command: 1.000155 seconds
+Time to read response: 0.000126 seconds
+Time to process data: 0.000978 seconds
+Time taken for this cycle: 1.002187 seconds
+-7.8092244 110.32197818333333
+Time to send command: 1.000247 seconds
+Time to read response: 0.000249 seconds
+Time to process data: 0.002185 seconds
+Time taken for this cycle: 1.005352 seconds
+
