@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>GPS Tracker by RPi</title>
+    <meta name="description" content="GPS Tracker - RPi">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="icon" type="image/png" href="/static/images/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css"/ >
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="//code.jquery.com/jquery-3.5.0.slim.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <style>
+        /* Your existing styles */
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <!-- Your existing form and time range selection -->
+
+            <div class="row">
+                <div class="twelve columns">
+                    <div id="map" class="map"></div>
+                    <script type="text/javascript">
+                        var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port);
+
+                        socket.on('connect', function() {
+                            console.log('Connected to server');
+                            socket.emit('request_latest_coordinates');
+                        });
+
+                        socket.on('new_coordinate', function(data) {
+                            var latestCoord = data;
+                            var map = L.map('map').setView([latestCoord.latitude, latestCoord.longitude], 14);
+
+                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                maxZoom: 19,
+                            }).addTo(map);
+
+                            var latlngs = coordinates.map(function(coord) {
+                                return [coord.latitude, coord.longitude];
+                            });
+
+                            // Add polyline to connect the coordinates
+                            var polyline = L.polyline(latlngs, {color: 'blue'}).addTo(map);
+                            map.fitBounds(polyline.getBounds());
+
+                            // Add a marker at the latest coordinates
+                            var latestMarker = L.marker([latestCoord.latitude, latestCoord.longitude]).addTo(map);
+                            latestMarker.bindPopup("<b>Latest Location</b><br>Lat: " + latestCoord.latitude.toFixed(6) + "<br>Lon: " + latestCoord.longitude.toFixed(6)).openPopup();
+
+                            // Add a marker at the first coordinates
+                            var firstCoord = coordinates[0];
+                            var firstMarker = L.marker([firstCoord.latitude, firstCoord.longitude]).addTo(map);
+                            firstMarker.bindPopup("<b>Start Location</b><br>Lat: " + firstCoord.latitude.toFixed(6) + "<br>Lon: " + firstCoord.longitude.toFixed(6)).openPopup();
+                        });
+                    </script>
+                </div>
+            </div>
+
+            <div class="row coordinates-table">
+                <div class="twelve columns">
+                    <strong>Showing all records</strong>
+                    <h2>Real Time GPS Coordinates</h2>
+                    <table class="u-full-width">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Latitude</th>
+                                <th>Longitude</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in coordinates %}
+                            <tr>
+                                <td>{{row['rDatetime']}}</td>
+                                <td>{{"{0:0.6f}".format(row['latitude'])}}</td>
+                                <td>{{"{0:0.6f}".format(row['longitude'])}}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        jQuery('#datetimepicker1').datetimepicker({
+            format:'Y-m-d H:i',
+            defaultDate:'{{from_date}}'
+        });
+
+        jQuery('#datetimepicker2').datetimepicker({
+            format:'Y-m-d H:i',
+            defaultDate:'{{to_date}}'
+        });
+
+        jQuery("#range_select input[type=radio]").click(function(){ 
+            jQuery("#range_select").submit();
+        });
+    </script>
+</body>
+</html>
